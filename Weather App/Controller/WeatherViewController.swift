@@ -17,7 +17,7 @@ class WeatherViewController: UIViewController , getLocationofUserChoice , CLLoca
     
     //Constants
     let WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
-    let APP_ID = "31348c3623793916b47f17c243b4166e"
+    let APP_ID = Appid().APP_ID
     
     let weatherDataModel = WeatherDataModel( ) // object of class
     

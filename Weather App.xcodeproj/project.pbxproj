@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5253877D10C50CC0D4CCE51A /* Pods_Weather_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEDD0BD729CB1F99F8940C /* Pods_Weather_App.framework */; };
+		A001B21D28285E6400D7AFE1 /* appid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B21C28285E6400D7AFE1 /* appid.swift */; };
 		A004FB9427E065BE00C44D8B /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A004FB9327E065BE00C44D8B /* WeatherDataModel.swift */; };
 		A01652F727DFB68E00DAF9D8 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01652F627DFB68E00DAF9D8 /* LocationViewController.swift */; };
 		A054798927DF9C4A003BF82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A054798827DF9C4A003BF82D /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		1EDFE78FA19C747A2274B373 /* Pods-Weather App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather App.release.xcconfig"; path = "Target Support Files/Pods-Weather App/Pods-Weather App.release.xcconfig"; sourceTree = "<group>"; };
 		3FFEDD0BD729CB1F99F8940C /* Pods_Weather_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B21C28285E6400D7AFE1 /* appid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appid.swift; sourceTree = "<group>"; };
 		A004FB9327E065BE00C44D8B /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		A01652F627DFB68E00DAF9D8 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		A054798527DF9C4A003BF82D /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				A054798A27DF9C4A003BF82D /* SceneDelegate.swift */,
 				A054798C27DF9C4A003BF82D /* WeatherViewController.swift */,
 				A01652F627DFB68E00DAF9D8 /* LocationViewController.swift */,
+				A001B21C28285E6400D7AFE1 /* appid.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				A004FB9427E065BE00C44D8B /* WeatherDataModel.swift in Sources */,
 				A054798927DF9C4A003BF82D /* AppDelegate.swift in Sources */,
 				A054798B27DF9C4A003BF82D /* SceneDelegate.swift in Sources */,
+				A001B21D28285E6400D7AFE1 /* appid.swift in Sources */,
 				A01652F727DFB68E00DAF9D8 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
