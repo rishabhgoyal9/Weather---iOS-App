@@ -7,5 +7,5 @@
 
 import Foundation
 class Appid{
-    let APP_ID = ""
+    let APP_ID = "" // use your app id here
 }
