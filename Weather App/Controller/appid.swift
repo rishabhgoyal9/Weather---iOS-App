@@ -7,5 +7,5 @@
 
 import Foundation
 class Appid{
-    let APP_ID = "31348c3623793916b47f17c243b4166e"
+    let APP_ID = ""
 }
